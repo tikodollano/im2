@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#logincontainer{
+margin-left: 40px;
+border: 1px solid cyan;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+height: 70%;
+width: 23em;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+}
+#logincontainer label{
+  margin-top:20px;
+}
+#logincontainer button{
+  margin-top:20px;
+  height: 3em
+}
+input[type = "text"],input[type = "password"]{
+  height: 3em;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+#logo{
+  height: 80%;
+  width: 30em;
+}
+#logo img{
+  height: 100%;
+  width: 100%;
+}
